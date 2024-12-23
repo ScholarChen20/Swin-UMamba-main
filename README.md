@@ -4,16 +4,6 @@ Official repository for: *[Swin-UMamba: Mamba-based UNet with ImageNet-based pre
 
 ![network](https://github.com/JiarunLiu/Swin-UMamba/blob/main/assets/swin-umamba.png)
 
-## Main Results
-
-- AbdomenMRI
-<img src="https://github.com/JiarunLiu/Swin-UMamba/blob/main/assets/abdomenmr.png" width="50%" />
-
-- Endoscopy
-<img src="https://github.com/JiarunLiu/Swin-UMamba/blob/main/assets/endoscopy.png" width="50%" />
-
-- Microscopy
-<img src="https://github.com/JiarunLiu/Swin-UMamba/blob/main/assets/microscopy.png" width="50%" />
 
 ## Installation
 
@@ -76,11 +66,8 @@ Here  `MODEL_NAME` can be:
 - `nnUNetTrainerSwinUMambaScratch`: Swin-UMamba model without ImageNet pretraining
 - `nnUNetTrainerSwinUMambaDScratch`: Swin-UMamba$\dagger$  model without ImageNet pretraining
 
-You can download our model checkpoints [here](https://drive.google.com/drive/folders/1zOt0ZfQPjoPdY37NfLKevYs4x5eClThN?usp=sharing).
+You can download model checkpoints [here](https://drive.google.com/drive/folders/1zOt0ZfQPjoPdY37NfLKevYs4x5eClThN?usp=sharing).
 
-## Acknowledgements
-
-We thank the authors of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [Mamba](https://github.com/state-spaces/mamba), [UMamba](https://github.com/bowang-lab/U-Mamba), [VMamba](https://github.com/MzeroMiko/VMamba), and [Swin-Unet](https://github.com/HuCaoFighting/Swin-Unet) for making their valuable code & data publicly available.
 
 ## Citation
 
